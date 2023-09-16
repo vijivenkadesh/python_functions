@@ -1,31 +1,37 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[40]:
+# In[54]:
 
 
-def sum_range1(num=0):
+def sum_range1(num1=0):
     '''This function sum all the numbers in the given range'''
-    num1 = int(input('Please enter the number range:'))
     return sum(range(num1)) + num1
 
 
-# In[36]:
+# In[57]:
 
 
-sum_range1()
+sum_range1(2)
 
 
-# In[52]:
+# In[58]:
 
 
-def sum_range2(num=0):
+def sum_range2(num1=0):
     '''This function sum all the numbers in the given range'''
-    num1 = int(input('Please enter the number range:'))
     sum1 = 0
     for i in range(num1):
         sum1+=i
-    return sum1
+        sum2 = sum1 + num1
+    return sum2
+
+
+# In[60]:
+
+
+print(sum_range1(1))
+print(sum_range2(1))
 
 
 # In[ ]:
