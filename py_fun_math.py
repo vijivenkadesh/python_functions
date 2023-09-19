@@ -23,6 +23,16 @@ def sum_range2(num1=0):
 
 # In[ ]:
 
+def math_fun(num1=0, num2=1):
+    if num1==num2:
+        action1 = num1+num2
+        return action1
+    elif num1>=num2:
+        action2 = num1/num2
+        return action2
+    else:
+        action3 = num2/num1
+        return- action3
 
 
 
